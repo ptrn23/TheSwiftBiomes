@@ -1,0 +1,33 @@
+{
+  "name": "swift_biomes:alleys_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:city/streets/alley_1",
+        "processors": "swift_biomes:alley_degration"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:city/building/building_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:city/empty",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

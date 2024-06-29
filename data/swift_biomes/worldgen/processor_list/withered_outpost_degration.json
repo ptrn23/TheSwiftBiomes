@@ -1,0 +1,62 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:polished_blackstone_bricks",
+              "probability": 0.6
+            },
+            "output_state": {
+              "Name": "minecraft:cracked_polished_blackstone_bricks"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:polished_blackstone_bricks",
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:gilded_blackstone"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:cobweb",
+              "probability": 0.9
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:lantern",
+              "probability": 0.5
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

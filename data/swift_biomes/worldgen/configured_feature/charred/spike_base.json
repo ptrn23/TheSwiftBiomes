@@ -1,0 +1,29 @@
+{
+  "config": {
+    "vegetation_chance": 0.6,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "extra_edge_column_chance": 0.8,
+    "extra_bottom_block_chance": 0.1,
+    "vertical_range": 5,
+    "vegetation_feature": {
+      "feature": "swift_biomes:charred/spike",
+      "placement": []
+    },
+    "surface": "floor",
+    "depth": 1,
+    "replaceable": "#swift_biomes:charred_surface",
+    "ground_state": {
+      "state": {
+        "Name": "minecraft:blackstone"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:vegetation_patch"
+}

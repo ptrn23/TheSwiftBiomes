@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:lover/palm_tree",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:lover/fancy_spruce",
+        "chance": 0.3
+      },
+      {
+        "feature": "swift_biomes:lover/mega_tree",
+        "chance": 0.4
+      }
+    ],
+    "default": "swift_biomes:lover/cherry_bush"
+  },
+  "type": "minecraft:random_selector"
+}

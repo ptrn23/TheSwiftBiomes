@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:autumn/spruce_big",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:autumn/dead_log",
+        "chance": 0.1
+      },
+      {
+        "feature": "swift_biomes:autumn/mega_tree_birch",
+        "chance": 0.1
+      }
+    ],
+    "default": "swift_biomes:autumn/mega_tree"
+  },
+  "type": "minecraft:random_selector"
+}

@@ -1,0 +1,65 @@
+{
+  "config": {
+    "tries": 48,
+    "xz_spread": 4,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "seed": 2345,
+            "noise": {
+              "firstOctave": -3,
+              "amplitudes": [
+                1
+              ]
+            },
+            "scale": 1,
+            "states": [
+              {
+                "Properties": {
+                  "half": "lower"
+                },
+                "Name": "minecraft:tall_grass"
+              },
+              {
+                "Name": "minecraft:dandelion"
+              },
+              {
+                "Name": "minecraft:orange_tulip"
+              },
+              {
+                "Name": "minecraft:grass"
+              }
+            ],
+            "variety": [
+              1,
+              2
+            ],
+            "slow_noise": {
+              "firstOctave": -10,
+              "amplitudes": [
+                1
+              ]
+            },
+            "slow_scale": 1,
+            "type": "minecraft:dual_noise_provider"
+          }
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": [
+        {
+          "predicate": {
+            "blocks": [
+              "minecraft:air"
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    }
+  },
+  "type": "minecraft:flower"
+}

@@ -1,0 +1,24 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:woodlands/oak_mega",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:woodlands/dark_oak_mega",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:woodlands/canopy_dark",
+        "chance": 0.05
+      },
+      {
+        "feature": "swift_biomes:woodlands/canopy",
+        "chance": 0.05
+      }
+    ],
+    "default": "swift_biomes:woodlands/mega_spruce"
+  },
+  "type": "minecraft:random_selector"
+}

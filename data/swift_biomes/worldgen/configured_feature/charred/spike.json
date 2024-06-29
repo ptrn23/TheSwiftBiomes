@@ -1,0 +1,85 @@
+{
+  "config": {
+    "layers": [
+      {
+        "height": {
+          "distribution": [
+            {
+              "data": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "min_inclusive": 5,
+                  "max_inclusive": 10
+                }
+              },
+              "weight": 5
+            },
+            {
+              "data": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 15
+                }
+              },
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:blackstone"
+              },
+              "weight": 9
+            },
+            {
+              "data": {
+                "Name": "minecraft:polished_blackstone_bricks"
+              },
+              "weight": 9
+            },
+            {
+              "data": {
+                "Name": "minecraft:gilded_blackstone"
+              },
+              "weight": 2
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:blackstone_wall"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "minecraft:polished_blackstone_wall"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      }
+    ],
+    "direction": "up",
+    "allowed_placement": {
+      "blocks": [
+        "minecraft:air"
+      ],
+      "type": "minecraft:matching_blocks"
+    },
+    "prioritize_tip": true
+  },
+  "type": "minecraft:block_column"
+}

@@ -1,0 +1,17 @@
+{
+  "feature": "swift_biomes:autumn/mega_tree_birch",
+  "placement": [
+    {
+      "predicate": {
+        "state": {
+          "Properties": {
+            "stage": "0"
+          },
+          "Name": "minecraft:jungle_sapling"
+        },
+        "type": "minecraft:would_survive"
+      },
+      "type": "minecraft:block_predicate_filter"
+    }
+  ]
+}

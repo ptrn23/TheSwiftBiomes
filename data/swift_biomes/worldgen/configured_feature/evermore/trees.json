@@ -1,0 +1,12 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:evermore/spruce_checked",
+        "chance": 0.01
+      }
+    ],
+    "default": "swift_biomes:evermore/dead_acacia_checked"
+  },
+  "type": "minecraft:random_selector"
+}

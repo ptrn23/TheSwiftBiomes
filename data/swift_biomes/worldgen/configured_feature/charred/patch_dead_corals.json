@@ -1,0 +1,74 @@
+{
+  "config": {
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 5,
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "entries": [
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false"
+                  },
+                  "Name": "minecraft:dead_fire_coral"
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false"
+                  },
+                  "Name": "minecraft:dead_brain_coral"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false"
+                  },
+                  "Name": "minecraft:dead_bubble_coral"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false"
+                  },
+                  "Name": "minecraft:dead_horn_coral"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Properties": {
+                    "waterlogged": "false"
+                  },
+                  "Name": "minecraft:dead_tube_coral"
+                },
+                "weight": 1
+              }
+            ],
+            "type": "minecraft:weighted_state_provider"
+          }
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": [
+        {
+          "predicate": {
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    }
+  },
+  "type": "minecraft:flower"
+}

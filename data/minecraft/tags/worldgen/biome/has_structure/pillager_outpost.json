@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:snowy_plains",
+    "minecraft:taiga",
+    "#minecraft:is_mountain",
+    "minecraft:grove",
+    "swift_biomes:1989_woodlands",
+    "swift_biomes:fearless_fields",
+    "swift_biomes:red_autumnal_forest"
+  ]
+}

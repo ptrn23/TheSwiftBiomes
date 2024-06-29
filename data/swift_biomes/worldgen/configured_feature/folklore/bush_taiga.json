@@ -1,0 +1,12 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:folklore/oak_bush",
+        "chance": 0.5
+      }
+    ],
+    "default": "swift_biomes:folklore/spruce_bush"
+  },
+  "type": "minecraft:random_selector"
+}

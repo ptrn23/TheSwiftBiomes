@@ -1,0 +1,17 @@
+{
+  "feature": "swift_biomes:woodlands/huge_brown_mushroom_with_stem",
+  "placement": [
+    {
+			"predicate": {
+				"state": {
+					"Properties": {
+						"stage": "0"
+					},
+					"Name": "minecraft:spruce_sapling"
+				},
+				"type": "minecraft:would_survive"
+			},
+			"type": "minecraft:block_predicate_filter"
+		}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "feature": "swift_biomes:charred/golden_geode",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

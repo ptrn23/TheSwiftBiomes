@@ -1,0 +1,42 @@
+{
+  "name": "swift_biomes:withered_outpost",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:withered_outpost_1",
+        "processors": "swift_biomes:withered_outpost_degration"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:withered_outpost_1_abandoned",
+        "processors": "swift_biomes:withered_outpost_degration_abandoned"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:withered_outpost_2",
+        "processors": "swift_biomes:withered_outpost_degration"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "swift_biomes:withered_outpost_2_abandoned",
+        "processors": "swift_biomes:withered_outpost_degration_abandoned"
+      }
+    }
+  ]
+}

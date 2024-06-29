@@ -1,0 +1,105 @@
+{
+  "config": {
+    "layers": [
+      {
+        "height": {
+          "distribution": [
+            {
+              "data": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 11
+                }
+              },
+              "weight": 5
+            },
+            {
+              "data": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "min_inclusive": 11,
+                  "max_inclusive": 15
+                }
+              },
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:pink_stained_glass"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:pink_stained_glass"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "entries": [
+            {
+              "data": {
+                "Properties": {
+                  "level": "15",
+                  "waterlogged": "false"
+                },
+                "Name": "minecraft:light"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Properties": {
+                  "level": "11",
+                  "waterlogged": "false"
+                },
+                "Name": "minecraft:light"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Properties": {
+                  "level": "9",
+                  "waterlogged": "false"
+                },
+                "Name": "minecraft:light"
+              },
+              "weight": 3
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      }
+    ],
+    "direction": "up",
+    "allowed_placement": {
+      "blocks": [
+        "minecraft:air"
+      ],
+      "type": "minecraft:matching_blocks"
+    },
+    "prioritize_tip": true
+  },
+  "type": "minecraft:block_column"
+}

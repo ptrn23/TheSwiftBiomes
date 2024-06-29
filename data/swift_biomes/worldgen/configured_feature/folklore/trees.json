@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:folklore/canopy_spruce",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:folklore/canopy_oak",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:folklore/canopy",
+        "chance": 0.2
+      }
+    ],
+    "default": "swift_biomes:folklore/fancy_canopy"
+  },
+  "type": "minecraft:random_selector"
+}

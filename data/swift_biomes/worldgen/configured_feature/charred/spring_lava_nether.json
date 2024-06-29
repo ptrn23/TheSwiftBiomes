@@ -1,0 +1,20 @@
+{
+  "config": {
+    "rock_count": 5,
+    "hole_count": 3,
+    "valid_blocks": [
+      "minecraft:stone",
+      "minecraft:black_concrete_powder",
+      "minecraft:magma_block",
+      "minecraft:blackstone"
+    ],
+    "state": {
+      "Properties": {
+        "falling": "true"
+      },
+      "Name": "minecraft:lava"
+    },
+    "requires_block_below": true
+  },
+  "type": "minecraft:spring_feature"
+}

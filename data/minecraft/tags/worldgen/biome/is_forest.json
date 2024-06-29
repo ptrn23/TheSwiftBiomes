@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:grove",
+    "swift_biomes:folklore_forest",
+    "swift_biomes:lover_crystalline_lowlands",
+    "swift_biomes:red_autumnal_forest",
+    "swift_biomes:speak_now_enchanted_forest"
+  ]
+}
