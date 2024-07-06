@@ -45,19 +45,15 @@
       "radius": 1,
       "offset": {
         "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 3
-        }
+        "min_inclusive": 2,
+        "max_inclusive": 3
       },
       "crown_height": {
         "type": "minecraft:clamped_normal",
-        "value": {
-          "min_inclusive": 9,
-          "max_inclusive": 12,
-          "mean": 8,
-          "deviation": 3
-        }
+        "min_inclusive": 9,
+        "max_inclusive": 12,
+        "mean": 8,
+        "deviation": 3
       }
     }
   },

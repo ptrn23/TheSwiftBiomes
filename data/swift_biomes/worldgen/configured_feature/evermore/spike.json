@@ -7,20 +7,16 @@
             {
               "data": {
                 "type": "minecraft:biased_to_bottom",
-                "value": {
-                  "min_inclusive": 2,
-                  "max_inclusive": 4
-                }
+                "min_inclusive": 2,
+                "max_inclusive": 4
               },
               "weight": 5
             },
             {
               "data": {
                 "type": "minecraft:biased_to_bottom",
-                "value": {
-                  "min_inclusive": 2,
-                  "max_inclusive": 3
-                }
+                "min_inclusive": 2,
+                "max_inclusive": 3
               },
               "weight": 1
             }
