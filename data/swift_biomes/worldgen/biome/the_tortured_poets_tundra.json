@@ -14,12 +14,12 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "sky_color": 8364543,
-    "fog_color": 12638463,
-    "foliage_color": 4351554,
-    "grass_color": 12562300,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 12369084,
+    "fog_color": 10066329,
+    "grass_color": 12369084,
+    "foliage_color": 10066329,
+    "water_color": 12369084,
+    "water_fog_color": 10066329
   },
   "features": [
     [],
@@ -74,9 +74,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
-      "swift_biomes:evermore/spike_base",
-      "swift_biomes:evermore/trees",
-      "swift_biomes:evermore/bushes",
+      "swift_biomes:poets/spike_base",
+      "swift_biomes:poets/trees",
+      "swift_biomes:poets/bushes",
       "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
@@ -161,6 +161,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0,
-  "temperature_modifier": "frozen"
+  "temperature": 0.8
 }

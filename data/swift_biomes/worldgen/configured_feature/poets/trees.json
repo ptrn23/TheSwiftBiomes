@@ -1,0 +1,12 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:poets/spruce_checked",
+        "chance": 0.01
+      }
+    ],
+    "default": "swift_biomes:poets/dead_dark_oak_checked"
+  },
+  "type": "minecraft:random_selector"
+}
