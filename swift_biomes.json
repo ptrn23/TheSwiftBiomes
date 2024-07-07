@@ -199,22 +199,22 @@
           "biome_lub55k1q",
           "biome_lub55k1q",
           "biome_lub55k1q",
-          "biome_lub55k1q",
-          "biome_lub54wic",
-          "biome_lub54wic"
+          "biome_lyb5spon",
+          "biome_lyb5spon",
+          "biome_lyb5spon"
         ],
         [
           "biome_lub546cr",
           "biome_lub546cr",
-          "biome_lub55epg",
-          "biome_lub54wic",
+          "biome_lyb5spon",
+          "biome_lyb5spon",
           "biome_lub54wic",
           "biome_lub54wic"
         ],
         [
           "biome_lub55awi/biome_lub546cr",
           "biome_lub546cr",
-          "biome_lub55epg",
+          "biome_lyb5spon",
           "biome_lub55epg",
           "biome_lub54wic",
           "biome_lub54wic"
@@ -245,9 +245,9 @@
           "biome_lub55k1q",
           "biome_lub55k1q",
           "biome_lub55k1q",
-          "biome_lub55k1q",
-          "biome_lub55k1q",
-          "biome_lub55k1q"
+          "biome_lyb5spon",
+          "biome_lyb5spon",
+          "biome_lyb5spon"
         ],
         [
           "biome_lub546cr/biome_lub55awi",
@@ -1830,12 +1830,18 @@
       "key": "biome_lub55pp1",
       "name": "swift_biomes:midnights_meadows",
       "color": "#0008f5"
+    },
+    {
+      "key": "biome_lyb5spon",
+      "name": "swift_biomes:the_tortured_poets_tundra",
+      "color": "#bfb697"
     }
   ],
   "targetVersion": "1_19",
   "exportSplines": false,
   "exportBiomeColors": false,
   "noiseSettingsName": "minecraft:overworld",
+  "dimensionTypeName": "minecraft:overworld",
   "splines": {
     "offset": {
       "continentalnesses": [
