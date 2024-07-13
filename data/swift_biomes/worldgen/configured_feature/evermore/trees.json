@@ -2,11 +2,15 @@
   "config": {
     "features": [
       {
-        "feature": "swift_biomes:evermore/spruce_checked",
-        "chance": 0.01
+        "feature": "swift_biomes:evermore/dead_acacia_checked",
+        "chance": 0.1
+      },
+      {
+        "feature": "swift_biomes:evermore/oak_checked",
+        "chance": 0.1
       }
     ],
-    "default": "swift_biomes:evermore/dead_acacia_checked"
+    "default": "swift_biomes:evermore/mega_spruce"
   },
   "type": "minecraft:random_selector"
 }
