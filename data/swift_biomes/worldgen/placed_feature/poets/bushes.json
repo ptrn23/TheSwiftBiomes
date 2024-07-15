@@ -2,7 +2,7 @@
   "feature": "swift_biomes:poets/bushes",
   "placement": [
     {
-      "chance": 5,
+      "chance": 3,
       "type": "minecraft:rarity_filter"
     },
     {
