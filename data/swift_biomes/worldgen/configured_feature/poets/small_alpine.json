@@ -20,7 +20,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:dark_oak_wood"
+        "Name": "minecraft:pale_oak_wood"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -36,7 +36,7 @@
           "persistent": "false",
           "distance": "7"
         },
-        "Name": "minecraft:dark_oak_leaves"
+        "Name": "minecraft:pale_oak_leaves"
       },
       "type": "minecraft:simple_state_provider"
     },
