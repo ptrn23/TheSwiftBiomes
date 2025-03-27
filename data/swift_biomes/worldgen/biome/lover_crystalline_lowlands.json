@@ -74,16 +74,14 @@
       "minecraft:glow_lichen",
       "swift_biomes:lover/spike_base",
       "swift_biomes:lover/flower_forest_flowers",
-      "minecraft:bamboo_light",
       "swift_biomes:lover/trees",
       "swift_biomes:lover/patch_grass",
       "swift_biomes:lover/patch_tall_grass",
-      "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:seagrass_warm"
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"

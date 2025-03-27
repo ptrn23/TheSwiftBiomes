@@ -13,11 +13,7 @@
               "probability": 0.1
             },
             "output_state": {
-              "Name": "minecraft:stone_bricks",
-              "Properties": {
-                "type": "bottom",
-                "waterlogged": "false"
-              }
+              "Name": "minecraft:stone_bricks"
             }
           },
           {
