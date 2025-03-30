@@ -17,13 +17,7 @@
     "grass_color": 13404751,
     "foliage_color": 15802411,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "particle": {
-      "options": {
-        "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.01
-    }
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -85,7 +79,8 @@
       "minecraft:patch_large_fern",
       "minecraft:patch_grass_taiga",
       "minecraft:patch_tall_grass",
-      "swift_biomes:autumn/patch_pumpkin"
+      "swift_biomes:autumn/patch_pumpkin",
+      "minecraft:patch_berry_common"
     ],
     [
       "minecraft:freeze_top_layer"
