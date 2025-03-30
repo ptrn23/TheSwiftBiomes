@@ -14,10 +14,10 @@
       }
     ],
     "ignore_vines": false,
-    "force_dirt": false,
+    "force_dirt": true,
     "dirt_provider": {
       "state": {
-        "Name": "minecraft:dirt"
+        "Name": "minecraft:air"
       },
       "type": "minecraft:simple_state_provider"
     },

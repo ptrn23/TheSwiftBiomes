@@ -7,6 +7,13 @@
         "type": "minecraft:beehive"
       }
     ],
+    "force_dirt": true,
+    "dirt_provider": {
+      "state": {
+        "Name": "minecraft:air"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size"
     },
@@ -53,12 +60,6 @@
         "type": "minecraft:uniform",
         "max_inclusive": 3,
         "min_inclusive": 1
-      }
-    },
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:dirt"
       }
     },
     "trunk_provider": {
