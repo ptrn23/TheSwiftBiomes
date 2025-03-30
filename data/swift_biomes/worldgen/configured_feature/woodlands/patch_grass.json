@@ -13,19 +13,25 @@
                 "data": {
                   "Name": "minecraft:fern"
                 },
-                "weight": 3
+                "weight": 15
               },
               {
                 "data": {
                   "Name": "minecraft:short_grass"
                 },
-                "weight": 5
+                "weight": 25
+              },
+              {
+                "data": {
+                  "Name": "minecraft:firefly_bush"
+                },
+                "weight": 1
               },
               {
                 "data": {
                   "Name": "minecraft:dead_bush"
                 },
-                "weight": 1
+                "weight": 5
               },
               {
                 "data": {
