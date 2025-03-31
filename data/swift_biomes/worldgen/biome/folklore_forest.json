@@ -17,13 +17,7 @@
     "foliage_color": 4351554,
     "grass_color": 7382606,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "particle": {
-      "options": {
-        "type": "wax_on"
-      },
-      "probability": 0.001
-    }
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -80,6 +74,7 @@
       "swift_biomes:folklore/bush_taiga",
       "swift_biomes:folklore/patch_grass",
       "swift_biomes:folklore/patch_tall_grass",
+      "minecraft:patch_bush",
       "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",

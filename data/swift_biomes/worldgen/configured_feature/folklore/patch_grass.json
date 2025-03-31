@@ -13,13 +13,19 @@
                 "data": {
                   "Name": "minecraft:fern"
                 },
-                "weight": 3
+                "weight": 15
               },
               {
                 "data": {
                   "Name": "minecraft:short_grass"
                 },
-                "weight": 5
+                "weight": 45
+              },
+              {
+                "data": {
+                  "Name": "minecraft:firefly_bush"
+                },
+                "weight": 1
               },
               {
                 "data": {
@@ -28,7 +34,7 @@
                   },
                   "Name": "minecraft:large_fern"
                 },
-                "weight": 2
+                "weight": 10
               }
             ],
             "type": "minecraft:weighted_state_provider"
