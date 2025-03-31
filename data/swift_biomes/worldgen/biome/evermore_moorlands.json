@@ -75,6 +75,7 @@
       "swift_biomes:evermore/spike_base",
       "swift_biomes:evermore/trees",
       "swift_biomes:evermore/bushes",
+      "minecraft:patch_dry_grass_desert",
       "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
