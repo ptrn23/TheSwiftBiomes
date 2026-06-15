@@ -7,7 +7,9 @@
         "sound": "minecraft:music.overworld.lush_caves"
       }
     },
-    "minecraft:visual/sky_color": "#77A8FF"
+    "minecraft:visual/sky_color": "#77A8FF",
+    "minecraft:visual/fog_color": "#C0D8FF",
+    "minecraft:visual/water_fog_color": "#37EFFF"
   },
   "carvers": [
     "minecraft:cave",
@@ -73,8 +75,10 @@
     [
       "minecraft:glow_lichen",
       "minecraft:bamboo_light",
+      "swift_biomes:springs/trees",
       "minecraft:forest_flowers",
       "minecraft:flower_warm",
+      "swift_biomes:springs/mud_springs",
       "minecraft:lush_caves_vegetation",
       "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_normal",
