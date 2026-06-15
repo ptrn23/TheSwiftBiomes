@@ -9,19 +9,25 @@
         "entries": [
           {
             "data": {
+              "Name": "minecraft:grass_block"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
               "Name": "minecraft:moss_block"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:mossy_cobblestone"
             },
             "weight": 1
           },
           {
             "data": {
               "Name": "minecraft:cobblestone"
-            },
-            "weight": 2
-          },
-          {
-            "data": {
-              "Name": "minecraft:mossy_cobblestone"
             },
             "weight": 1
           }
