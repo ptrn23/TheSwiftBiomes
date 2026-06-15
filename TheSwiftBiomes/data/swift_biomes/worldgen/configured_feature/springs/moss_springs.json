@@ -2,11 +2,11 @@
     "type": "minecraft:random_boolean_selector",
     "config": {
       "feature_false": {
-        "feature": "swift_biomes:springs/mud_pool_with_dripleaves",
+        "feature": "swift_biomes:springs/moss_pool_with_dripleaves",
         "placement": []
       },
       "feature_true": {
-        "feature": "swift_biomes:springs/mud_with_dripleaves",
+        "feature": "swift_biomes:springs/moss_with_dripleaves",
         "placement": []
       }
     }
