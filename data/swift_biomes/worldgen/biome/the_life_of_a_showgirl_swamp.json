@@ -91,6 +91,7 @@
     ],
     [
       "minecraft:glow_lichen",
+      "swift_biomes:showgirl/opalite_geode",
       "swift_biomes:showgirl/trees_mangrove",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_grass_normal",
