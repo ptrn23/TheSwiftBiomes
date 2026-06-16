@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:charred/charred_basalt_tree",
+        "chance": 0.1
+      },
+      {
+        "feature": "swift_biomes:charred/charred_acacia_tree_trimmed",
+        "chance": 0.05
+      }
+    ],
+    "default": "swift_biomes:charred/charred_acacia_tree"
+  },
+  "type": "minecraft:random_selector"
+}

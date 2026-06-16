@@ -33,7 +33,9 @@
     "water_color": "#777777"
   },
   "features": [
-    [],
+    [
+      "swift_biomes:charred/cliff_fix"
+    ],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -81,10 +83,15 @@
     ],
     [],
     [
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "swift_biomes:charred/spring_delta"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "swift_biomes:charred/golden_geode",
+      "swift_biomes:charred/trees",
+      "swift_biomes:charred/patch_grass",
+      "swift_biomes:charred/patch_fire"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -1,0 +1,60 @@
+
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:dual_noise_provider",
+      "noise": {
+        "amplitudes": [
+          1.0
+        ],
+        "firstOctave": -3
+      },
+      "scale": 1.0,
+      "seed": 2345,
+      "slow_noise": {
+        "amplitudes": [
+          1.0
+        ],
+        "firstOctave": -10
+      },
+      "slow_scale": 1.0,
+      "states": [
+        {
+          "Properties": {
+            "waterlogged": "false"
+          },
+          "Name": "minecraft:dead_fire_coral"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false"
+          },
+          "Name": "minecraft:dead_brain_coral"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false"
+          },
+          "Name": "minecraft:dead_bubble_coral"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false"
+          },
+          "Name": "minecraft:dead_horn_coral"
+        },
+        {
+          "Properties": {
+            "waterlogged": "false"
+          },
+          "Name": "minecraft:dead_tube_coral"
+        }
+      ],
+      "variety": [
+        1,
+        2
+      ]
+    }
+  }
+}
