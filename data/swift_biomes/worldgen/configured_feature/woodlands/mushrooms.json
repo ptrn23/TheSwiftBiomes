@@ -1,0 +1,36 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "feature": "swift_biomes:woodlands/huge_brown_mushroom",
+          "placement": []
+        },
+        "chance": 0.2
+      },
+      {
+        "feature": {
+          "feature": "swift_biomes:woodlands/huge_red_mushroom",
+          "placement": []
+        },
+        "chance": 0.2
+      },
+      {
+        "feature": {
+          "feature": "swift_biomes:woodlands/huge_brown_mushroom_with_stem",
+          "placement": []
+        },
+        "chance": 0.2
+      },
+      {
+        "feature": {
+          "feature": "swift_biomes:woodlands/huge_red_mushroom_with_stem",
+          "placement": []
+        },
+        "chance": 0.2
+      }
+    ],
+    "default": "swift_biomes:woodlands/huge_red_mushroom"
+  },
+  "type": "minecraft:random_selector"
+}
