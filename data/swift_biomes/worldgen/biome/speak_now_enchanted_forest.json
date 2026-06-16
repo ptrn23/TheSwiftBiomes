@@ -80,6 +80,9 @@
     ],
     [
       "minecraft:glow_lichen",
+      "swift_biomes:enchanted/flowers",
+      "swift_biomes:enchanted/trees",
+      "swift_biomes:enchanted/amethysts",
       "minecraft:patch_grass_jungle",
       "minecraft:seagrass_swamp"
     ],

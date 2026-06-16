@@ -1,0 +1,42 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:enchanted/bush",
+        "chance": 0.05
+      },
+      {
+        "feature": "swift_biomes:enchanted/green_bush",
+        "chance": 0.05
+      },
+      {
+        "feature": "swift_biomes:enchanted/mega_tree",
+        "chance": 0.3
+      },
+      {
+        "feature": "swift_biomes:enchanted/mega_tree_birch",
+        "chance": 0.2
+      },
+      {
+        "feature": "swift_biomes:enchanted/enchanted_birch",
+        "chance": 0.1
+      },
+      {
+        "feature": {
+          "feature": "swift_biomes:enchanted/huge_brown_mushroom",
+          "placement": []
+        },
+        "chance": 0.01
+      },
+      {
+        "feature": {
+          "feature": "swift_biomes:enchanted/huge_red_mushroom",
+          "placement": []
+        },
+        "chance": 0.01
+      }
+    ],
+    "default": "swift_biomes:enchanted/green_bush"
+  },
+  "type": "minecraft:random_selector"
+}
