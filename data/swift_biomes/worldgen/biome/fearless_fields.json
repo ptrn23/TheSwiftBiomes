@@ -74,6 +74,10 @@
     ],
     [
       "minecraft:glow_lichen",
+      "swift_biomes:fearless/patch_tall_grass",
+      "swift_biomes:fearless/patch_grass",
+      "swift_biomes:fearless/trees",
+      "swift_biomes:fearless/flowers",
       "minecraft:wildflowers_meadow",
       "minecraft:patch_sunflower",
       "minecraft:patch_grass_plain",

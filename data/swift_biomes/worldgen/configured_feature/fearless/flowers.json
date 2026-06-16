@@ -1,0 +1,45 @@
+
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:dual_noise_provider",
+      "noise": {
+        "amplitudes": [
+          1.0
+        ],
+        "firstOctave": -3
+      },
+      "scale": 1.0,
+      "seed": 2345,
+      "slow_noise": {
+        "amplitudes": [
+          1.0
+        ],
+        "firstOctave": -10
+      },
+      "slow_scale": 1.0,
+      "states": [
+        {
+          "Properties": {
+            "half": "lower"
+          },
+          "Name": "minecraft:tall_grass"
+        },
+        {
+          "Name": "minecraft:dandelion"
+        },
+        {
+          "Name": "minecraft:orange_tulip"
+        },
+        {
+          "Name": "minecraft:short_grass"
+        }
+      ],
+      "variety": [
+        1,
+        2
+      ]
+    }
+  }
+}
