@@ -75,10 +75,15 @@
     ],
     [
       "minecraft:glow_lichen",
+      "swift_biomes:autumn/flowers",
+      "swift_biomes:autumn/trees",
       "minecraft:patch_sunflower",
+      "swift_biomes:autumn/patch_brown_mushroom",
+      "swift_biomes:autumn/patch_dead_bush",
       "minecraft:patch_large_fern",
       "minecraft:patch_grass_taiga",
       "minecraft:patch_tall_grass",
+      "swift_biomes:autumn/patch_pumpkin",
       "minecraft:patch_berry_common"
     ],
     [
