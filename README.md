@@ -4,7 +4,7 @@
 
 **Are you a fan of Taylor Swift who happens to like Minecraft too? You're gonna be in love with The Swift Biomes!**
 
-This datapack replaces the overworld with **ELEVEN (11) atmospheric biomes**, each reimagining the beauty of Taylor Swift's 11 studio albums. This datapack is originally dedicated to our public SMP named Swifties SMP where everyone can play and see the biomes in action. We have decided to release the raw datapack for the public too for fun!
+This datapack replaces the overworld with **TWELVE (12) atmospheric biomes**, each reimagining the beauty of Taylor Swift's 12 studio albums. This datapack is originally dedicated to our public SMP named Swifties SMP where everyone can play and see the biomes in action. We have decided to release the raw datapack for the public too for fun!
 
 Join now!: https://discord.gg/Qqkm6tB8UU
 
