@@ -91,8 +91,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_swamp",
-      "minecraft:trees_mangrove",
+      "swift_biomes:showgirl/trees_mangrove",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "swift_biomes:showgirl/mangrove_checked",
+    "features": [
+      {
+        "chance": 0.85,
+        "feature": "swift_biomes:showgirl/tall_mangrove_checked"
+      }
+    ]
+  }
+}
