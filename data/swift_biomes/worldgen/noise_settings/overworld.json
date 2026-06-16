@@ -606,6 +606,88 @@
                     "type": "minecraft:condition"
                   },
                   {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "swift_biomes:the_life_of_a_showgirl_swamp"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "noise": "swift_biomes:showgirl/coarse",
+                            "min_threshold": -0.1,
+                            "max_threshold": 1e+308
+                          },
+                          "then_run": {
+                            "type": "minecraft:sequence",
+                            "sequence": [
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "noise": "minecraft:calcite",
+                                  "min_threshold": 0.35,
+                                  "max_threshold": 1e+308
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:exposed_copper"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "noise": "swift_biomes:showgirl/big_noise",
+                                  "min_threshold": 0.1,
+                                  "max_threshold": 1e+308
+                                },
+                                "then_run": {
+                                  "type": "minecraft:condition",
+                                  "if_true": {
+                                    "type": "minecraft:noise_threshold",
+                                    "noise": "swift_biomes:showgirl/tiny_noise",
+                                    "min_threshold": 0.2,
+                                    "max_threshold": 1e+308
+                                  },
+                                  "then_run": {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:coarse_dirt"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "noise": "swift_biomes:showgirl/big_noise",
+                                  "min_threshold": 0.1,
+                                  "max_threshold": 1e+308
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:podzol"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
                     "if_true": {
                       "biome_is": [
                         "swift_biomes:red_autumnal_forest"
