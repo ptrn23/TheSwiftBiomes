@@ -1,0 +1,12 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "swift_biomes:poets/small_alpine",
+        "chance": 0.1
+      }
+    ],
+    "default": "swift_biomes:poets/bush"
+  },
+  "type": "minecraft:random_selector"
+}
