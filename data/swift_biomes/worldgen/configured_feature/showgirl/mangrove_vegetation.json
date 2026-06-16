@@ -4,7 +4,7 @@
     "default": "swift_biomes:showgirl/mangrove_checked",
     "features": [
       {
-        "chance": 0.85,
+        "chance": 0.8,
         "feature": "swift_biomes:showgirl/tall_mangrove_checked"
       }
     ]
