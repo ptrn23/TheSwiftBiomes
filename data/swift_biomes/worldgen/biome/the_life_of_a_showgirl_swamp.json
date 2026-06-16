@@ -15,7 +15,15 @@
       "argument": 0.65,
       "modifier": "multiply"
     },
-    "minecraft:visual/ambient_light_color": "#1F120C"
+    "minecraft:visual/ambient_light_color": "#1F120C",
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "wax_on"
+        },
+        "probability": 0.001
+      }
+    ]
   },
   "carvers": [
     "minecraft:cave",
