@@ -1,121 +1,119 @@
 {
-  "config": {
-    "layers": [
-      {
-        "height": {
-          "distribution": [
-            {
-              "data": {
-                "type": "minecraft:biased_to_bottom",
-                "min_inclusive": 3,
-                "max_inclusive": 11
-              },
-              "weight": 1
+  "layers": [
+    {
+      "height": {
+        "distribution": [
+          {
+            "data": {
+              "type": "minecraft:biased_to_bottom",
+              "min_inclusive": 3,
+              "max_inclusive": 11
             },
-            {
-              "data": {
-                "type": "minecraft:biased_to_bottom",
-                "min_inclusive": 5,
-                "max_inclusive": 7
-              },
-              "weight": 5
-            }
-          ],
-          "type": "minecraft:weighted_list"
-        },
-        "provider": {
-          "entries": [
-            {
-              "data": {
-                "id": "minecraft:blue_ice"
-              },
-              "weight": 1
-            }
-          ],
-          "type": "minecraft:weighted"
-        }
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "minecraft:biased_to_bottom",
+              "min_inclusive": 5,
+              "max_inclusive": 7
+            },
+            "weight": 5
+          }
+        ],
+        "type": "minecraft:weighted_list"
       },
-      {
-        "height": {
-          "distribution": [
-            {
-              "data": {
-                "type": "minecraft:biased_to_bottom",
-                "min_inclusive": 2,
-                "max_inclusive": 7
-              },
-              "weight": 1
+      "provider": {
+        "entries": [
+          {
+            "data": {
+              "id": "minecraft:blue_ice"
             },
-            {
-              "data": {
-                "type": "minecraft:biased_to_bottom",
-                "min_inclusive": 3,
-                "max_inclusive": 5
-              },
-              "weight": 5
-            }
-          ],
-          "type": "minecraft:weighted_list"
-        },
-        "provider": {
-          "entries": [
-            {
-              "data": {
-                "id": "minecraft:packed_ice"
-              },
-              "weight": 1
-            }
-          ],
-          "type": "minecraft:weighted"
-        }
-      },
-      {
-        "height": 1,
-        "provider": {
-          "entries": [
-            {
-              "data": {
-                "properties": {
-                  "level": "15",
-                  "waterlogged": "false"
-                },
-                "id": "minecraft:light"
-              },
-              "weight": 1
-            },
-            {
-              "data": {
-                "properties": {
-                  "level": "11",
-                  "waterlogged": "false"
-                },
-                "id": "minecraft:light"
-              },
-              "weight": 2
-            },
-            {
-              "data": {
-                "properties": {
-                  "level": "9",
-                  "waterlogged": "false"
-                },
-                "id": "minecraft:light"
-              },
-              "weight": 3
-            }
-          ],
-          "type": "minecraft:weighted"
-        }
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted"
       }
-    ],
-    "direction": "up",
-    "allowed_placement": {
-      "blocks": [
-        "minecraft:air"
-      ],
-      "type": "minecraft:matching_blocks"
     },
-    "prioritize_tip": true
+    {
+      "height": {
+        "distribution": [
+          {
+            "data": {
+              "type": "minecraft:biased_to_bottom",
+              "min_inclusive": 2,
+              "max_inclusive": 7
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "minecraft:biased_to_bottom",
+              "min_inclusive": 3,
+              "max_inclusive": 5
+            },
+            "weight": 5
+          }
+        ],
+        "type": "minecraft:weighted_list"
+      },
+      "provider": {
+        "entries": [
+          {
+            "data": {
+              "id": "minecraft:packed_ice"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted"
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "entries": [
+          {
+            "data": {
+              "properties": {
+                "level": "15",
+                "waterlogged": "false"
+              },
+              "id": "minecraft:light"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "properties": {
+                "level": "11",
+                "waterlogged": "false"
+              },
+              "id": "minecraft:light"
+            },
+            "weight": 2
+          },
+          {
+            "data": {
+              "properties": {
+                "level": "9",
+                "waterlogged": "false"
+              },
+              "id": "minecraft:light"
+            },
+            "weight": 3
+          }
+        ],
+        "type": "minecraft:weighted"
+      }
+    }
+  ],
+  "direction": "up",
+  "allowed_placement": {
+    "blocks": [
+      "minecraft:air"
+    ],
+    "type": "minecraft:matching_blocks"
   },
+  "prioritize_tip": true,
   "type": "minecraft:block_column"
 }
