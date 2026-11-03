@@ -10,14 +10,20 @@
       "spawns": [
         {
           "type": "minecraft:skeleton",
-          "maxCount": 9,
-          "minCount": 1,
+          "count": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 9,
+            "min_inclusive": 1
+          },
           "weight": 1
         },
         {
           "type": "minecraft:wither_skeleton",
-          "maxCount": 1,
-          "minCount": 1,
+          "count": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 1,
+            "min_inclusive": 1
+          },
           "weight": 1
         }
       ]
