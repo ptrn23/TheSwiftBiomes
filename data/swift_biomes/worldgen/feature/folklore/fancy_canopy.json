@@ -1,61 +1,59 @@
 {
   "type": "minecraft:tree",
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [],
-    "minimum_size": {
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "trunk_provider": {
-      "type": "minecraft:simple",
-      "state": {
-        "id": "minecraft:oak_log",
-        "properties": {
-          "axis": "y"
-        }
       }
-    },
-    "foliage_provider": {
-      "type": "minecraft:simple",
-      "state": {
-        "id": "minecraft:oak_leaves",
-        "properties": {
-          "distance": "7",
-          "persistent": "false"
-        }
+    ]
+  },
+  "decorators": [],
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:oak_log",
+      "properties": {
+        "axis": "y"
       }
-    },
-    "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 10,
-      "height_rand_a": 5,
-      "height_rand_b": 10
-    },
-    "foliage_placer": {
-      "type": "minecraft:random_spread_foliage_placer",
-      "radius": 3,
-      "offset": 2,
-      "foliage_height": 3,
-      "leaf_placement_attempts": 256
     }
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:oak_leaves",
+      "properties": {
+        "distance": "7",
+        "persistent": "false"
+      }
+    }
+  },
+  "trunk_placer": {
+    "type": "minecraft:fancy_trunk_placer",
+    "base_height": 10,
+    "height_rand_a": 5,
+    "height_rand_b": 10
+  },
+  "foliage_placer": {
+    "type": "minecraft:random_spread_foliage_placer",
+    "radius": 3,
+    "offset": 2,
+    "foliage_height": 3,
+    "leaf_placement_attempts": 256
   }
 }

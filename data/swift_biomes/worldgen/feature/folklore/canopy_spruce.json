@@ -1,113 +1,111 @@
 {
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [
-      {
-        "type": "minecraft:trunk_vine"
       }
-    ],
-    "ignore_vines": false,
-    "minimum_size": {
-      "limit": 1,
-      "lower_size": 0,
-      "upper_size": 1,
-      "type": "minecraft:two_layers_feature_size"
+    ]
+  },
+  "decorators": [
+    {
+      "type": "minecraft:trunk_vine"
+    }
+  ],
+  "ignore_vines": false,
+  "minimum_size": {
+    "limit": 1,
+    "lower_size": 0,
+    "upper_size": 1,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "state": {
+      "properties": {
+        "axis": "y"
+      },
+      "id": "minecraft:spruce_log"
     },
-    "trunk_provider": {
+    "type": "minecraft:simple"
+  },
+  "trunk_placer": {
+    "base_height": 22,
+    "height_rand_a": 5,
+    "height_rand_b": 10,
+    "type": "minecraft:fancy_trunk_placer"
+  },
+  "foliage_provider": {
+    "state": {
+      "properties": {
+        "persistent": "false",
+        "distance": "7"
+      },
+      "id": "minecraft:spruce_leaves"
+    },
+    "type": "minecraft:simple"
+  },
+  "foliage_placer": {
+    "radius": 2,
+    "offset": 1,
+    "height": 2,
+    "type": "minecraft:jungle_foliage_placer"
+  },
+  "root_placer": {
+    "trunk_offset_y": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 8
+    },
+    "root_provider": {
       "state": {
         "properties": {
           "axis": "y"
         },
-        "id": "minecraft:spruce_log"
+        "id": "minecraft:spruce_wood"
       },
       "type": "minecraft:simple"
     },
-    "trunk_placer": {
-      "base_height": 22,
-      "height_rand_a": 5,
-      "height_rand_b": 10,
-      "type": "minecraft:fancy_trunk_placer"
-    },
-    "foliage_provider": {
-      "state": {
-        "properties": {
-          "persistent": "false",
-          "distance": "7"
+    "above_root_placement": {
+      "above_root_provider": {
+        "state": {
+          "id": "minecraft:moss_carpet"
         },
-        "id": "minecraft:spruce_leaves"
+        "type": "minecraft:simple"
       },
-      "type": "minecraft:simple"
+      "above_root_placement_chance": 0.0
     },
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 1,
-      "height": 2,
-      "type": "minecraft:jungle_foliage_placer"
-    },
-    "root_placer": {
-      "trunk_offset_y": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 2,
-        "max_inclusive": 8
-      },
-      "root_provider": {
+    "mangrove_root_placement": {
+      "max_root_width": 4,
+      "max_root_length": 12,
+      "random_skew_chance": 0.75,
+      "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+      "muddy_roots_in": [
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots"
+      ],
+      "muddy_roots_provider": {
         "state": {
           "properties": {
             "axis": "y"
           },
-          "id": "minecraft:spruce_wood"
+          "id": "minecraft:muddy_mangrove_roots"
         },
         "type": "minecraft:simple"
-      },
-      "above_root_placement": {
-        "above_root_provider": {
-          "state": {
-            "id": "minecraft:moss_carpet"
-          },
-          "type": "minecraft:simple"
-        },
-        "above_root_placement_chance": 0.0
-      },
-      "mangrove_root_placement": {
-        "max_root_width": 4,
-        "max_root_length": 12,
-        "random_skew_chance": 0.75,
-        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
-        "muddy_roots_in": [
-          "minecraft:mud",
-          "minecraft:muddy_mangrove_roots"
-        ],
-        "muddy_roots_provider": {
-          "state": {
-            "properties": {
-              "axis": "y"
-            },
-            "id": "minecraft:muddy_mangrove_roots"
-          },
-          "type": "minecraft:simple"
-        }
-      },
-      "type": "minecraft:mangrove_root_placer"
-    }
+      }
+    },
+    "type": "minecraft:mangrove_root_placer"
   },
   "type": "minecraft:tree"
 }

@@ -1,75 +1,73 @@
 {
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [],
-    "ignore_vines": false,
-    "minimum_size": {
-      "limit": 0,
-      "lower_size": 0,
-      "upper_size": 0,
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "trunk_provider": {
-      "state": {
-        "properties": {
-          "axis": "y"
-        },
-        "id": "minecraft:spruce_log"
+      }
+    ]
+  },
+  "decorators": [],
+  "ignore_vines": false,
+  "minimum_size": {
+    "limit": 0,
+    "lower_size": 0,
+    "upper_size": 0,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "state": {
+      "properties": {
+        "axis": "y"
       },
-      "type": "minecraft:simple"
+      "id": "minecraft:spruce_log"
     },
-    "trunk_placer": {
-      "base_height": 1,
-      "height_rand_a": 0,
-      "height_rand_b": 0,
-      "type": "minecraft:straight_trunk_placer"
-    },
-    "foliage_provider": {
-      "entries": [
-        {
-          "data": {
-            "properties": {
-              "persistent": "false",
-              "distance": "7"
-            },
-            "id": "minecraft:oak_leaves"
+    "type": "minecraft:simple"
+  },
+  "trunk_placer": {
+    "base_height": 1,
+    "height_rand_a": 0,
+    "height_rand_b": 0,
+    "type": "minecraft:straight_trunk_placer"
+  },
+  "foliage_provider": {
+    "entries": [
+      {
+        "data": {
+          "properties": {
+            "persistent": "false",
+            "distance": "7"
           },
-          "weight": 9
+          "id": "minecraft:oak_leaves"
         },
-        {
-          "data": {
-            "id": "minecraft:air"
-          },
-          "weight": 1
-        }
-      ],
-      "type": "minecraft:weighted"
-    },
-    "foliage_placer": {
-      "radius": 3,
-      "offset": 0,
-      "height": 2,
-      "type": "minecraft:blob_foliage_placer"
-    }
+        "weight": 9
+      },
+      {
+        "data": {
+          "id": "minecraft:air"
+        },
+        "weight": 1
+      }
+    ],
+    "type": "minecraft:weighted"
+  },
+  "foliage_placer": {
+    "radius": 3,
+    "offset": 0,
+    "height": 2,
+    "type": "minecraft:blob_foliage_placer"
   },
   "type": "minecraft:tree"
 }

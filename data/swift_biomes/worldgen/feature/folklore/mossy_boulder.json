@@ -1,77 +1,75 @@
 {
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [],
-    "ignore_vines": false,
-    "minimum_size": {
-      "limit": 0,
-      "lower_size": 0,
-      "upper_size": 0,
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "trunk_provider": {
-      "state": {
-        "properties": {
-          "axis": "y"
-        },
-        "id": "minecraft:spruce_log"
+      }
+    ]
+  },
+  "decorators": [],
+  "ignore_vines": false,
+  "minimum_size": {
+    "limit": 0,
+    "lower_size": 0,
+    "upper_size": 0,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "state": {
+      "properties": {
+        "axis": "y"
       },
-      "type": "minecraft:simple"
+      "id": "minecraft:spruce_log"
     },
-    "trunk_placer": {
-      "base_height": 1,
-      "height_rand_a": 0,
-      "height_rand_b": 0,
-      "type": "minecraft:straight_trunk_placer"
-    },
-    "foliage_provider": {
-      "entries": [
-        {
-          "data": {
-            "id": "minecraft:stone"
-          },
-          "weight": 2
+    "type": "minecraft:simple"
+  },
+  "trunk_placer": {
+    "base_height": 1,
+    "height_rand_a": 0,
+    "height_rand_b": 0,
+    "type": "minecraft:straight_trunk_placer"
+  },
+  "foliage_provider": {
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:stone"
         },
-        {
-          "data": {
-            "id": "minecraft:cobblestone"
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "minecraft:cobblestone"
         },
-        {
-          "data": {
-            "id": "minecraft:mossy_cobblestone"
-          },
-          "weight": 1
-        }
-      ],
-      "type": "minecraft:weighted"
-    },
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 0,
-      "height": 1,
-      "type": "minecraft:jungle_foliage_placer"
-    }
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "minecraft:mossy_cobblestone"
+        },
+        "weight": 1
+      }
+    ],
+    "type": "minecraft:weighted"
+  },
+  "foliage_placer": {
+    "radius": 2,
+    "offset": 0,
+    "height": 1,
+    "type": "minecraft:jungle_foliage_placer"
   },
   "type": "minecraft:tree"
 }

@@ -1,56 +1,54 @@
 {
-    "type": "minecraft:fallen_tree",
-    "config": {
-      "log_decorators": [
-        {
-          "type": "minecraft:attached_to_logs",
-          "block_provider": {
-            "type": "minecraft:weighted",
-            "entries": [
-              {
-                "data": {
-                  "id": "minecraft:moss_carpet"
-                },
-                "weight": 2
-              },
-              {
-                "data": {
-                  "id": "minecraft:red_mushroom"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "id": "minecraft:brown_mushroom"
-                },
-                "weight": 1
-              }
-            ]
+  "type": "minecraft:fallen_tree",
+  "log_decorators": [
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": {
+              "id": "minecraft:moss_carpet"
+            },
+            "weight": 2
           },
-          "directions": [
-            "up"
-          ],
-          "probability": 0.1
-        }
-      ],
-      "log_length": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 7,
-        "min_inclusive": 4
-      },
-      "stump_decorators": [
-        {
-          "type": "minecraft:trunk_vine"
-        }
-      ],
-      "trunk_provider": {
-        "type": "minecraft:simple",
-        "state": {
-          "id": "minecraft:oak_log",
-          "properties": {
-            "axis": "y"
+          {
+            "data": {
+              "id": "minecraft:red_mushroom"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "id": "minecraft:brown_mushroom"
+            },
+            "weight": 1
           }
-        }
+        ]
+      },
+      "directions": [
+        "up"
+      ],
+      "probability": 0.1
+    }
+  ],
+  "log_length": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 4
+  },
+  "stump_decorators": [
+    {
+      "type": "minecraft:trunk_vine"
+    }
+  ],
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:oak_log",
+      "properties": {
+        "axis": "y"
       }
     }
+  }
 }
