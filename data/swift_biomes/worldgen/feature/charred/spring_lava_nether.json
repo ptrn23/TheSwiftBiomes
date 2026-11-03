@@ -1,20 +1,18 @@
 {
-  "config": {
-    "rock_count": 5,
-    "hole_count": 3,
-    "valid_blocks": [
-      "minecraft:stone",
-      "minecraft:black_concrete_powder",
-      "minecraft:magma_block",
-      "minecraft:blackstone"
-    ],
-    "state": {
-      "properties": {
-        "falling": "true"
-      },
-      "id": "minecraft:lava"
+  "rock_count": 5,
+  "hole_count": 3,
+  "valid_blocks": [
+    "minecraft:stone",
+    "minecraft:black_concrete_powder",
+    "minecraft:magma_block",
+    "minecraft:blackstone"
+  ],
+  "state": {
+    "properties": {
+      "falling": "true"
     },
-    "requires_block_below": true
+    "id": "minecraft:lava"
   },
+  "requires_block_below": true,
   "type": "minecraft:spring_feature"
 }

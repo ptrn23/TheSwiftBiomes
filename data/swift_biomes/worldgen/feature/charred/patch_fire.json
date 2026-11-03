@@ -1,18 +1,16 @@
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:simple",
-      "state": {
-        "id": "minecraft:fire",
-        "properties": {
-          "age": "0",
-          "east": "false",
-          "north": "false",
-          "south": "false",
-          "up": "false",
-          "west": "false"
-        }
+  "to_place": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:fire",
+      "properties": {
+        "age": "0",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
       }
     }
   }
