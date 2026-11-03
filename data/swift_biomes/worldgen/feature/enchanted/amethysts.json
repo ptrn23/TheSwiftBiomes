@@ -1,40 +1,38 @@
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:weighted",
-      "entries": [
-        {
-          "weight": 3,
-          "data": {
-            "id": "minecraft:large_amethyst_bud",
-            "properties": {
-              "facing": "up",
-              "waterlogged": "false"
-            }
-          }
-        },
-        {
-          "weight": 5,
-          "data": {
-            "id": "minecraft:medium_amethyst_bud",
-            "properties": {
-              "facing": "up",
-              "waterlogged": "false"
-            }
-          }
-        },
-        {
-          "weight": 9,
-          "data": {
-            "id": "minecraft:small_amethyst_bud",
-            "properties": {
-              "facing": "up",
-              "waterlogged": "false"
-            }
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 3,
+        "data": {
+          "id": "minecraft:large_amethyst_bud",
+          "properties": {
+            "facing": "up",
+            "waterlogged": "false"
           }
         }
-      ]
-    }
+      },
+      {
+        "weight": 5,
+        "data": {
+          "id": "minecraft:medium_amethyst_bud",
+          "properties": {
+            "facing": "up",
+            "waterlogged": "false"
+          }
+        }
+      },
+      {
+        "weight": 9,
+        "data": {
+          "id": "minecraft:small_amethyst_bud",
+          "properties": {
+            "facing": "up",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ]
   }
 }

@@ -1,52 +1,50 @@
 
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:noise_provider",
-      "noise": {
-        "amplitudes": [
-          1.0
-        ],
-        "firstOctave": 0
+  "to_place": {
+    "type": "minecraft:noise",
+    "noise": {
+      "amplitude_modifiers": [
+        1.0
+      ],
+      "base_octave": 0
+    },
+    "scale": 0.020833334,
+    "seed": 2345,
+    "states": [
+      {
+        "id": "minecraft:allium"
       },
-      "scale": 0.020833334,
-      "seed": 2345,
-      "states": [
-        {
-          "id": "minecraft:allium"
-        },
-        {
-          "id": "minecraft:blue_orchid"
-        },
-        {
-          "id": "minecraft:nether_sprouts"
-        },
-        {
-          "id": "minecraft:azure_bluet"
-        },
-        {
-          "id": "minecraft:red_tulip"
-        },
-        {
-          "id": "minecraft:orange_tulip"
-        },
-        {
-          "id": "minecraft:white_tulip"
-        },
-        {
-          "id": "minecraft:pink_tulip"
-        },
-        {
-          "id": "minecraft:oxeye_daisy"
-        },
-        {
-          "id": "minecraft:cornflower"
-        },
-        {
-          "id": "minecraft:lily_of_the_valley"
-        }
-      ]
-    }
+      {
+        "id": "minecraft:blue_orchid"
+      },
+      {
+        "id": "minecraft:nether_sprouts"
+      },
+      {
+        "id": "minecraft:azure_bluet"
+      },
+      {
+        "id": "minecraft:red_tulip"
+      },
+      {
+        "id": "minecraft:orange_tulip"
+      },
+      {
+        "id": "minecraft:white_tulip"
+      },
+      {
+        "id": "minecraft:pink_tulip"
+      },
+      {
+        "id": "minecraft:oxeye_daisy"
+      },
+      {
+        "id": "minecraft:cornflower"
+      },
+      {
+        "id": "minecraft:lily_of_the_valley"
+      }
+    ]
   }
 }

@@ -1,38 +1,36 @@
 {
-  "config": {
-    "can_place_on": {
-      "type": "minecraft:matching_block_tag",
-      "tag": "minecraft:huge_red_mushroom_can_place_on"
-    },
-    "cap_provider": {
-      "state": {
-        "properties": {
-          "west": "true",
-          "up": "true",
-          "south": "true",
-          "north": "true",
-          "east": "true",
-          "down": "false"
-        },
-        "id": "minecraft:red_mushroom_block"
-      },
-      "type": "minecraft:simple"
-    },
-    "stem_provider": {
-      "state": {
-        "properties": {
-          "west": "true",
-          "up": "false",
-          "south": "true",
-          "north": "true",
-          "east": "true",
-          "down": "false"
-        },
-        "id": "minecraft:mushroom_stem"
-      },
-      "type": "minecraft:simple"
-    },
-    "foliage_radius": 3
+  "can_place_on": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "minecraft:huge_red_mushroom_can_place_on"
   },
+  "cap_provider": {
+    "state": {
+      "properties": {
+        "west": "true",
+        "up": "true",
+        "south": "true",
+        "north": "true",
+        "east": "true",
+        "down": "false"
+      },
+      "id": "minecraft:red_mushroom_block"
+    },
+    "type": "minecraft:simple"
+  },
+  "stem_provider": {
+    "state": {
+      "properties": {
+        "west": "true",
+        "up": "false",
+        "south": "true",
+        "north": "true",
+        "east": "true",
+        "down": "false"
+      },
+      "id": "minecraft:mushroom_stem"
+    },
+    "type": "minecraft:simple"
+  },
+  "foliage_radius": 3,
   "type": "minecraft:huge_red_mushroom"
 }
