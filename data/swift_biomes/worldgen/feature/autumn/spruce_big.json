@@ -31,7 +31,7 @@
   "trunk_provider": {
     "type": "minecraft:simple",
     "state": {
-      "id": "minecraft:spruce_log",
+      "id": "minecraft:poplar_log",
       "properties": {
         "axis": "y"
       }
