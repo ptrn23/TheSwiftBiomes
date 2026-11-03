@@ -1,90 +1,88 @@
 {
   "type": "minecraft:tree",
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [],
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 0,
-      "type": "minecraft:acacia_foliage_placer"
-    },
-    "foliage_provider": {
-      "entries": [
-        {
-          "data": {
-            "properties": {
-              "persistent": "false",
-              "distance": "7"
-            },
-            "id": "minecraft:azalea_leaves"
+      }
+    ]
+  },
+  "decorators": [],
+  "foliage_placer": {
+    "radius": 2,
+    "offset": 0,
+    "type": "minecraft:acacia_foliage_placer"
+  },
+  "foliage_provider": {
+    "entries": [
+      {
+        "data": {
+          "properties": {
+            "persistent": "false",
+            "distance": "7"
           },
-          "weight": 3
+          "id": "minecraft:azalea_leaves"
         },
-        {
-          "data": {
-            "properties": {
-              "persistent": "false",
-              "distance": "7"
-            },
-            "id": "minecraft:flowering_azalea_leaves"
+        "weight": 3
+      },
+      {
+        "data": {
+          "properties": {
+            "persistent": "false",
+            "distance": "7"
           },
-          "weight": 1
-        }
-      ],
-      "type": "minecraft:weighted"
-    },
-    "ignore_vines": true,
-    "minimum_size": {
-      "type": "minecraft:two_layers_feature_size",
-      "limit": 1,
-      "lower_size": 0,
-      "upper_size": 1
-    },
-    "trunk_placer": {
-      "type": "minecraft:upwards_branching_trunk_placer",
-      "base_height": 7,
-      "can_grow_through": "#minecraft:mangrove_logs_can_grow_through",
-      "extra_branch_length": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 1,
-        "min_inclusive": 0
-      },
-      "extra_branch_steps": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 5,
-        "min_inclusive": 3
-      },
-      "height_rand_a": 2,
-      "height_rand_b": 4,
-      "place_branch_per_log_probability": 0.5
-    },
-    "trunk_provider": {
-      "state": {
-        "properties": {
-          "axis": "y"
+          "id": "minecraft:flowering_azalea_leaves"
         },
-        "id": "minecraft:jungle_log"
+        "weight": 1
+      }
+    ],
+    "type": "minecraft:weighted"
+  },
+  "ignore_vines": true,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 1,
+    "lower_size": 0,
+    "upper_size": 1
+  },
+  "trunk_placer": {
+    "type": "minecraft:upwards_branching_trunk_placer",
+    "base_height": 7,
+    "can_grow_through": "#minecraft:mangrove_logs_can_grow_through",
+    "extra_branch_length": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 1,
+      "min_inclusive": 0
+    },
+    "extra_branch_steps": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 5,
+      "min_inclusive": 3
+    },
+    "height_rand_a": 2,
+    "height_rand_b": 4,
+    "place_branch_per_log_probability": 0.5
+  },
+  "trunk_provider": {
+    "state": {
+      "properties": {
+        "axis": "y"
       },
-      "type": "minecraft:simple"
-    }
+      "id": "minecraft:jungle_log"
+    },
+    "type": "minecraft:simple"
   }
 }

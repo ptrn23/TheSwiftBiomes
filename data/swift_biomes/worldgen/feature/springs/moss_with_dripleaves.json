@@ -1,50 +1,48 @@
 {
-    "type": "minecraft:vegetation_patch",
-    "config": {
-      "depth": 3,
-      "extra_bottom_block_chance": 0.8,
-      "extra_edge_column_chance": 0.7,
-      "ground_state": {
-        "type": "minecraft:weighted",
-        "entries": [
-          {
-            "data": {
-              "id": "minecraft:grass_block"
-            },
-            "weight": 12
-          },
-          {
-            "data": {
-              "id": "minecraft:moss_block"
-            },
-            "weight": 4
-          },
-          {
-            "data": {
-              "id": "minecraft:mossy_cobblestone"
-            },
-            "weight": 3
-          },
-          {
-            "data": {
-              "id": "minecraft:cobblestone"
-            },
-            "weight": 1
-          }
-        ]
+  "type": "minecraft:vegetation_patch",
+  "depth": 3,
+  "extra_bottom_block_chance": 0.8,
+  "extra_edge_column_chance": 0.7,
+  "ground_state": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:grass_block"
+        },
+        "weight": 12
       },
-      "replaceable": "#minecraft:lush_ground_replaceable",
-      "surface": "floor",
-      "vegetation_chance": 0.01,
-      "vegetation_feature": {
-        "feature": "swift_biomes:springs/moss_patch",
-        "placement": []
+      {
+        "data": {
+          "id": "minecraft:moss_block"
+        },
+        "weight": 4
       },
-      "vertical_range": 2,
-      "xz_radius": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 7,
-        "min_inclusive": 4
+      {
+        "data": {
+          "id": "minecraft:mossy_cobblestone"
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "minecraft:cobblestone"
+        },
+        "weight": 1
       }
-    }
+    ]
+  },
+  "replaceable": "#minecraft:lush_ground_replaceable",
+  "surface": "floor",
+  "vegetation_chance": 0.01,
+  "vegetation_feature": {
+    "feature": "swift_biomes:springs/moss_patch",
+    "placement": []
+  },
+  "vertical_range": 2,
+  "xz_radius": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 4
   }
+}
