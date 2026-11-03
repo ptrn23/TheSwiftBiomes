@@ -1,15 +1,57 @@
 {
-  "config": {
-    "height": {
-      "type": "minecraft:uniform",
-      "min_inclusive": 1,
-      "max_inclusive": 3
-    },
-    "reach": {
-      "type": "minecraft:uniform",
-      "min_inclusive": 1,
-      "max_inclusive": 3
+  "type": "minecraft:stepped_column_cluster",
+  "block": {
+    "id": "minecraft:basalt",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "can_replace": {
+    "type": "minecraft:any_of",
+    "predicates": [
+      {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
+      },
+      {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:lava"
+          },
+          {
+            "type": "minecraft:height_range",
+            "max_inclusive": {
+              "relative_to_sea_level": 0
+            },
+            "min_inclusive": {
+              "above_bottom": 0
+            }
+          }
+        ]
       }
-    },
-  "type": "minecraft:basalt_columns"
+    ]
+  },
+  "cannot_place_on": "#minecraft:cannot_place_basalt_pillar_on",
+  "cluster_reach": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 3,
+    "min_inclusive": 1
+  },
+  "column_count": 50,
+  "column_reach": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 3,
+    "min_inclusive": 2
+  },
+  "continue_through": {
+    "type": "minecraft:matching_blocks",
+    "blocks": "minecraft:basalt"
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 3,
+    "min_inclusive": 1
+  }
 }
