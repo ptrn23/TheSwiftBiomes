@@ -6,7 +6,7 @@
       "tag": "minecraft:forest_rock_can_place_on"
     },
     "state": {
-      "Name": "minecraft:raw_gold_block"
+      "id": "minecraft:raw_gold_block"
     }
   }
 }

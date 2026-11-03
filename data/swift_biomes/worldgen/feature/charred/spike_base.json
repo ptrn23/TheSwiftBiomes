@@ -18,9 +18,9 @@
     "replaceable": "#swift_biomes:charred_surface",
     "ground_state": {
       "state": {
-        "Name": "minecraft:blackstone"
+        "id": "minecraft:blackstone"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     }
   },
   "type": "minecraft:vegetation_patch"

@@ -2,10 +2,10 @@
   "type": "minecraft:simple_block",
   "config": {
     "to_place": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:tall_grass",
-        "Properties": {
+        "id": "minecraft:tall_grass",
+        "properties": {
           "half": "lower"
         }
       }

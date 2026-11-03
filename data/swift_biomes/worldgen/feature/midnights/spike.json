@@ -27,12 +27,12 @@
           "entries": [
             {
               "data": {
-                "Name": "minecraft:blue_ice"
+                "id": "minecraft:blue_ice"
               },
               "weight": 1
             }
           ],
-          "type": "minecraft:weighted_state_provider"
+          "type": "minecraft:weighted"
         }
       },
       {
@@ -61,12 +61,12 @@
           "entries": [
             {
               "data": {
-                "Name": "minecraft:packed_ice"
+                "id": "minecraft:packed_ice"
               },
               "weight": 1
             }
           ],
-          "type": "minecraft:weighted_state_provider"
+          "type": "minecraft:weighted"
         }
       },
       {
@@ -75,36 +75,36 @@
           "entries": [
             {
               "data": {
-                "Properties": {
+                "properties": {
                   "level": "15",
                   "waterlogged": "false"
                 },
-                "Name": "minecraft:light"
+                "id": "minecraft:light"
               },
               "weight": 1
             },
             {
               "data": {
-                "Properties": {
+                "properties": {
                   "level": "11",
                   "waterlogged": "false"
                 },
-                "Name": "minecraft:light"
+                "id": "minecraft:light"
               },
               "weight": 2
             },
             {
               "data": {
-                "Properties": {
+                "properties": {
                   "level": "9",
                   "waterlogged": "false"
                 },
-                "Name": "minecraft:light"
+                "id": "minecraft:light"
               },
               "weight": 3
             }
           ],
-          "type": "minecraft:weighted_state_provider"
+          "type": "minecraft:weighted"
         }
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "name": "swift_biomes:city_start",
+  "id": "swift_biomes:city_start",
   "fallback": "minecraft:empty",
   "elements": [
     {

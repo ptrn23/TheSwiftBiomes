@@ -21,34 +21,34 @@
       "slow_scale": 1.0,
       "states": [
         {
-          "Properties": {
+          "properties": {
             "waterlogged": "false"
           },
-          "Name": "minecraft:dead_fire_coral"
+          "id": "minecraft:dead_fire_coral"
         },
         {
-          "Properties": {
+          "properties": {
             "waterlogged": "false"
           },
-          "Name": "minecraft:dead_brain_coral"
+          "id": "minecraft:dead_brain_coral"
         },
         {
-          "Properties": {
+          "properties": {
             "waterlogged": "false"
           },
-          "Name": "minecraft:dead_bubble_coral"
+          "id": "minecraft:dead_bubble_coral"
         },
         {
-          "Properties": {
+          "properties": {
             "waterlogged": "false"
           },
-          "Name": "minecraft:dead_horn_coral"
+          "id": "minecraft:dead_horn_coral"
         },
         {
-          "Properties": {
+          "properties": {
             "waterlogged": "false"
           },
-          "Name": "minecraft:dead_tube_coral"
+          "id": "minecraft:dead_tube_coral"
         }
       ],
       "variety": [

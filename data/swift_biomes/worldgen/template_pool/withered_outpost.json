@@ -1,5 +1,5 @@
 {
-  "name": "swift_biomes:withered_outpost",
+  "id": "swift_biomes:withered_outpost",
   "fallback": "minecraft:empty",
   "elements": [
     {

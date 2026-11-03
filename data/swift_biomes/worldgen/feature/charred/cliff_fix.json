@@ -7,9 +7,9 @@
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:blackstone"
+              "id": "minecraft:blackstone"
             }
           }
         }

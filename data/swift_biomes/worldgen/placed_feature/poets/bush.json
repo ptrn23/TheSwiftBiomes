@@ -4,10 +4,10 @@
     {
       "predicate": {
         "state": {
-          "Properties": {
+          "properties": {
             "stage": "0"
           },
-          "Name": "minecraft:pale_oak_sapling"
+          "id": "minecraft:pale_oak_sapling"
         },
         "type": "minecraft:would_survive"
       },

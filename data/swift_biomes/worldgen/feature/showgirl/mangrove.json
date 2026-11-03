@@ -2,7 +2,7 @@
   "type": "minecraft:tree",
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -13,9 +13,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -38,10 +38,10 @@
       "radius": 2
     },
     "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:mangrove_leaves",
-        "Properties": {
+        "id": "minecraft:mangrove_leaves",
+        "properties": {
           "distance": "7",
           "persistent": "false",
           "waterlogged": "false"
@@ -60,9 +60,9 @@
       "above_root_placement": {
         "above_root_placement_chance": 0.3,
         "above_root_provider": {
-          "type": "minecraft:simple_state_provider",
+          "type": "minecraft:simple",
           "state": {
-            "Name": "minecraft:moss_carpet"
+            "id": "minecraft:moss_carpet"
           }
         }
       },
@@ -75,10 +75,10 @@
           "minecraft:muddy_mangrove_roots"
         ],
         "muddy_roots_provider": {
-          "type": "minecraft:simple_state_provider",
+          "type": "minecraft:simple",
           "state": {
-            "Name": "minecraft:muddy_mangrove_roots",
-            "Properties": {
+            "id": "minecraft:muddy_mangrove_roots",
+            "properties": {
               "axis": "y"
             }
           }
@@ -86,10 +86,10 @@
         "random_skew_chance": 0.4
       },
       "root_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
-          "Name": "minecraft:mangrove_roots",
-          "Properties": {
+          "id": "minecraft:mangrove_roots",
+          "properties": {
             "waterlogged": "false"
           }
         }
@@ -113,10 +113,10 @@
       "min_height_for_leaves": 2
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:mangrove_log",
-        "Properties": {
+        "id": "minecraft:mangrove_log",
+        "properties": {
           "axis": "y"
         }
       }

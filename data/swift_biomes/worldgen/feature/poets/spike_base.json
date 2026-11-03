@@ -18,9 +18,9 @@
     "replaceable": "#minecraft:moss_replaceable",
     "ground_state": {
       "state": {
-        "Name": "minecraft:gravel"
+        "id": "minecraft:gravel"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     }
   },
   "type": "minecraft:vegetation_patch"

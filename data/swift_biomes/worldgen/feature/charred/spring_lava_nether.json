@@ -9,10 +9,10 @@
       "minecraft:blackstone"
     ],
     "state": {
-      "Properties": {
+      "properties": {
         "falling": "true"
       },
-      "Name": "minecraft:lava"
+      "id": "minecraft:lava"
     },
     "requires_block_below": true
   },

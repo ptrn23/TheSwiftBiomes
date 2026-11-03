@@ -7,10 +7,10 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:lilac",
-                "Properties": {
+                "id": "minecraft:lilac",
+                "properties": {
                   "half": "lower"
                 }
               }
@@ -51,10 +51,10 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:peony",
-                "Properties": {
+                "id": "minecraft:peony",
+                "properties": {
                   "half": "lower"
                 }
               }
@@ -95,10 +95,10 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:large_fern",
-                "Properties": {
+                "id": "minecraft:large_fern",
+                "properties": {
                   "half": "lower"
                 }
               }
@@ -139,9 +139,9 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:poppy"
+                "id": "minecraft:poppy"
               }
             }
           }
@@ -180,9 +180,9 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:allium"
+                "id": "minecraft:allium"
               }
             }
           }
@@ -221,9 +221,9 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:oxeye_daisy"
+                "id": "minecraft:oxeye_daisy"
               }
             }
           }
@@ -262,9 +262,9 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
+              "type": "minecraft:simple",
               "state": {
-                "Name": "minecraft:azure_bluet"
+                "id": "minecraft:azure_bluet"
               }
             }
           }

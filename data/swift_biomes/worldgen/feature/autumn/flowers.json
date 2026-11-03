@@ -1,28 +1,26 @@
 
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:noise_provider",
-      "noise": {
-        "amplitudes": [
-          1.0
-        ],
-        "firstOctave": 0
+  "to_place": {
+    "type": "minecraft:noise",
+    "noise": {
+      "amplitude_modifiers": [
+        1.0
+      ],
+      "base_octave": 0
+    },
+    "scale": 0.020833334,
+    "seed": 2345,
+    "states": [
+      {
+        "id": "minecraft:dandelion"
       },
-      "scale": 0.020833334,
-      "seed": 2345,
-      "states": [
-        {
-          "Name": "minecraft:dandelion"
-        },
-        {
-          "Name": "minecraft:poppy"
-        },
-        {
-          "Name": "minecraft:orange_tulip"
-        }
-      ]
-    }
+      {
+        "id": "minecraft:poppy"
+      },
+      {
+        "id": "minecraft:orange_tulip"
+      }
+    ]
   }
 }

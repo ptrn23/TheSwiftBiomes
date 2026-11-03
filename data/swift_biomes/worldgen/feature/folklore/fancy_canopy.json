@@ -2,7 +2,7 @@
   "type": "minecraft:tree",
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -13,9 +13,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -26,19 +26,19 @@
       "type": "minecraft:two_layers_feature_size"
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:oak_log",
-        "Properties": {
+        "id": "minecraft:oak_log",
+        "properties": {
           "axis": "y"
         }
       }
     },
     "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:oak_leaves",
-        "Properties": {
+        "id": "minecraft:oak_leaves",
+        "properties": {
           "distance": "7",
           "persistent": "false"
         }

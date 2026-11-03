@@ -1,7 +1,7 @@
 {
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -12,9 +12,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -30,12 +30,12 @@
     },
     "trunk_provider": {
       "state": {
-        "Properties": {
+        "properties": {
           "axis": "y"
         },
-        "Name": "minecraft:polished_basalt"
+        "id": "minecraft:polished_basalt"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     },
     "trunk_placer": {
       "base_height": 13,
@@ -45,9 +45,9 @@
     },
     "foliage_provider": {
       "state": {
-        "Name": "minecraft:air"
+        "id": "minecraft:air"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     },
     "foliage_placer": {
       "radius": {

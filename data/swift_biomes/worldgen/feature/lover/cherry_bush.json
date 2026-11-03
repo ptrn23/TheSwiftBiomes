@@ -2,7 +2,7 @@
   "type": "minecraft:tree",
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -13,9 +13,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -29,10 +29,10 @@
       "radius": 2
     },
     "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:cherry_leaves",
-        "Properties": {
+        "id": "minecraft:cherry_leaves",
+        "properties": {
           "distance": "7",
           "persistent": "false",
           "waterlogged": "false"
@@ -53,10 +53,10 @@
       "height_rand_b": 0
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:cherry_log",
-        "Properties": {
+        "id": "minecraft:cherry_log",
+        "properties": {
           "axis": "y"
         }
       }

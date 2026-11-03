@@ -1,7 +1,7 @@
 {
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -12,9 +12,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -35,12 +35,12 @@
     },
     "trunk_provider": {
       "state": {
-        "Properties": {
+        "properties": {
           "axis": "y"
         },
-        "Name": "minecraft:dark_oak_log"
+        "id": "minecraft:dark_oak_log"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     },
     "trunk_placer": {
       "type": "minecraft:fancy_trunk_placer",
@@ -52,26 +52,26 @@
       "entries": [
         {
           "data": {
-            "Properties": {
+            "properties": {
               "persistent": "false",
               "distance": "7"
             },
-            "Name": "minecraft:cherry_leaves"
+            "id": "minecraft:cherry_leaves"
           },
           "weight": 3
         },
         {
           "data": {
-            "Properties": {
+            "properties": {
               "persistent": "false",
               "distance": "7"
             },
-            "Name": "minecraft:cherry_leaves"
+            "id": "minecraft:cherry_leaves"
           },
           "weight": 1
         }
       ],
-      "type": "minecraft:weighted_state_provider"
+      "type": "minecraft:weighted"
     },
     "foliage_placer": {
       "radius": 3,

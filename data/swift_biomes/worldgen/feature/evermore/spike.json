@@ -27,18 +27,18 @@
           "entries": [
             {
               "data": {
-                "Name": "minecraft:cobbled_deepslate"
+                "id": "minecraft:cobbled_deepslate"
               },
               "weight": 9
             },
             {
               "data": {
-                "Name": "minecraft:deepslate"
+                "id": "minecraft:deepslate"
               },
               "weight": 1
             }
           ],
-          "type": "minecraft:weighted_state_provider"
+          "type": "minecraft:weighted"
         }
       },
       {
@@ -47,18 +47,18 @@
           "entries": [
             {
               "data": {
-                "Name": "minecraft:cobbled_deepslate"
+                "id": "minecraft:cobbled_deepslate"
               },
               "weight": 9
             },
             {
               "data": {
-                "Name": "minecraft:deepslate"
+                "id": "minecraft:deepslate"
               },
               "weight": 1
             }
           ],
-          "type": "minecraft:weighted_state_provider"
+          "type": "minecraft:weighted"
         }
       }
     ],

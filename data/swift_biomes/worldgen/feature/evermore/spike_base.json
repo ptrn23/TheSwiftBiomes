@@ -18,9 +18,9 @@
     "replaceable": "#minecraft:moss_replaceable",
     "ground_state": {
       "state": {
-        "Name": "minecraft:coarse_dirt"
+        "id": "minecraft:coarse_dirt"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     }
   },
   "type": "minecraft:vegetation_patch"

@@ -1,5 +1,5 @@
 {
-  "name": "swift_biomes:alleys_start",
+  "id": "swift_biomes:alleys_start",
   "fallback": "minecraft:empty",
   "elements": [
     {

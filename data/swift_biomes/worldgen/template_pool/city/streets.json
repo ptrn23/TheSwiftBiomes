@@ -1,5 +1,5 @@
 {
-  "name": "swift_biomes:streets",
+  "id": "swift_biomes:streets",
   "fallback": "minecraft:empty",
   "elements": [
     {

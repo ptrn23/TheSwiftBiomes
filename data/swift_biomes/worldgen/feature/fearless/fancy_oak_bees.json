@@ -2,7 +2,7 @@
   "type": "minecraft:tree",
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -13,9 +13,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -35,9 +35,9 @@
       "above_root_placement": {
         "above_root_placement_chance": 0.0,
         "above_root_provider": {
-          "type": "minecraft:simple_state_provider",
+          "type": "minecraft:simple",
           "state": {
-            "Name": "minecraft:moss_carpet"
+            "id": "minecraft:moss_carpet"
           }
         }
       },
@@ -50,10 +50,10 @@
           "minecraft:muddy_mangrove_roots"
         ],
         "muddy_roots_provider": {
-          "type": "minecraft:simple_state_provider",
+          "type": "minecraft:simple",
           "state": {
-            "Name": "minecraft:muddy_mangrove_roots",
-            "Properties": {
+            "id": "minecraft:muddy_mangrove_roots",
+            "properties": {
               "axis": "y"
             }
           }
@@ -61,10 +61,10 @@
         "random_skew_chance": 0.2
       },
       "root_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
-          "Name": "minecraft:mangrove_roots",
-          "Properties": {
+          "id": "minecraft:mangrove_roots",
+          "properties": {
             "waterlogged": "false"
           }
         }
@@ -76,19 +76,19 @@
       }
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:jungle_log",
-        "Properties": {
+        "id": "minecraft:jungle_log",
+        "properties": {
           "axis": "y"
         }
       }
     },
     "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:oak_leaves",
-        "Properties": {
+        "id": "minecraft:oak_leaves",
+        "properties": {
           "distance": "7",
           "persistent": "false"
         }

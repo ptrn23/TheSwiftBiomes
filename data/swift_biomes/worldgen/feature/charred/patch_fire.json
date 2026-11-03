@@ -2,10 +2,10 @@
   "type": "minecraft:simple_block",
   "config": {
     "to_place": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:fire",
-        "Properties": {
+        "id": "minecraft:fire",
+        "properties": {
           "age": "0",
           "east": "false",
           "north": "false",

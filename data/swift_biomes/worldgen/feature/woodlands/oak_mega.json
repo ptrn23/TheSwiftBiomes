@@ -1,7 +1,7 @@
 {
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -12,9 +12,9 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -34,12 +34,12 @@
     },
     "trunk_provider": {
       "state": {
-        "Properties": {
+        "properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "id": "minecraft:oak_log"
       },
-      "type": "minecraft:simple_state_provider"
+      "type": "minecraft:simple"
     },
     "trunk_placer": {
       "base_height": 13,
@@ -51,32 +51,32 @@
       "entries": [
         {
           "data": {
-            "Properties": {
+            "properties": {
               "persistent": "false",
               "distance": "7"
             },
-            "Name": "minecraft:oak_leaves"
+            "id": "minecraft:oak_leaves"
           },
           "weight": 9
         },
         {
           "data": {
-            "Properties": {
+            "properties": {
               "persistent": "false",
               "distance": "7"
             },
-            "Name": "minecraft:jungle_leaves"
+            "id": "minecraft:jungle_leaves"
           },
           "weight": 9
         },
         {
           "data": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           },
           "weight": 2
         }
       ],
-      "type": "minecraft:weighted_state_provider"
+      "type": "minecraft:weighted"
     },
     "foliage_placer": {
       "radius": {
