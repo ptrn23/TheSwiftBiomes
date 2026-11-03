@@ -1,11 +1,9 @@
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:simple",
-      "state": {
-        "id": "minecraft:pumpkin"
-      }
+  "to_place": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:pumpkin"
     }
   }
 }
