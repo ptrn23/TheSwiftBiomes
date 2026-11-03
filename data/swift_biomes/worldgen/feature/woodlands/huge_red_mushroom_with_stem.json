@@ -1,73 +1,71 @@
 {
-  "config": {
-    "below_trunk_provider": {
-      "type": "minecraft:rule_based",
-      "rules": [
-        {
-          "if_true": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:cannot_replace_below_tree_trunk"
-            }
-          },
-          "then": {
-            "type": "minecraft:simple",
-            "state": {
-              "id": "minecraft:dirt"
-            }
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:dirt"
           }
         }
-      ]
-    },
-    "decorators": [],
-    "ignore_vines": true,
-    "minimum_size": {
-      "limit": 1,
-      "lower_size": 0,
-      "upper_size": 2,
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "trunk_provider": {
-      "state": {
-        "properties": {
-          "west": "true",
-          "up": "false",
-          "south": "true",
-          "north": "true",
-          "east": "true",
-          "down": "false"
-        },
-        "id": "minecraft:mushroom_stem"
+      }
+    ]
+  },
+  "decorators": [],
+  "ignore_vines": true,
+  "minimum_size": {
+    "limit": 1,
+    "lower_size": 0,
+    "upper_size": 2,
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_provider": {
+    "state": {
+      "properties": {
+        "west": "true",
+        "up": "false",
+        "south": "true",
+        "north": "true",
+        "east": "true",
+        "down": "false"
       },
-      "type": "minecraft:simple"
+      "id": "minecraft:mushroom_stem"
     },
-    "trunk_placer": {
-      "base_height": 7,
-      "height_rand_a": 2,
-      "height_rand_b": 2,
-      "type": "minecraft:giant_trunk_placer"
-    },
-    "foliage_provider": {
-      "state": {
-        "properties": {
-          "west": "true",
-          "up": "true",
-          "south": "true",
-          "north": "true",
-          "east": "true",
-          "down": "true"
-        },
-        "id": "minecraft:red_mushroom_block"
+    "type": "minecraft:simple"
+  },
+  "trunk_placer": {
+    "base_height": 7,
+    "height_rand_a": 2,
+    "height_rand_b": 2,
+    "type": "minecraft:giant_trunk_placer"
+  },
+  "foliage_provider": {
+    "state": {
+      "properties": {
+        "west": "true",
+        "up": "true",
+        "south": "true",
+        "north": "true",
+        "east": "true",
+        "down": "true"
       },
-      "type": "minecraft:simple"
+      "id": "minecraft:red_mushroom_block"
     },
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 0,
-      "height": 3,
-      "type": "minecraft:blob_foliage_placer"
-    }
+    "type": "minecraft:simple"
+  },
+  "foliage_placer": {
+    "radius": 2,
+    "offset": 0,
+    "height": 3,
+    "type": "minecraft:blob_foliage_placer"
   },
   "type": "minecraft:tree"
 }

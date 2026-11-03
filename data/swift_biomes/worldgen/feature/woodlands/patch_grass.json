@@ -1,11 +1,9 @@
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:simple",
-      "state": {
-        "id": "minecraft:short_grass"
-      }
+  "to_place": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:short_grass"
     }
   }
 }
